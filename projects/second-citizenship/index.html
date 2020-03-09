@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  Benedict</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Varela+Round'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+  <h2>How to use this tool</h2>
+  <p>This tool can tell you what second citizenship would be the most useful to you, and how to get it. Just select your nationality in the box below and let the magic happen.</p>
+  <select id="select"></select>
+  <label>
+    <input type="checkbox" id="showDiff"/>
+    <span>Only show differences?</span>
+  </label>
+  <p id="textEl"></p>
+  <table id="table">
+  </table>
+  <div>
+    <h3>Legend</h3>
+    <table>
+      <tbody>
+        <tr><th>VF</th><td>Visa-free travel</td></tr>
+        <tr><th>VR</th><td>Visa required</td></tr>
+        <tr><th>VOA</th><td>Visa on arrival</td></tr>
+        <tr><th>ETA</th><td>eTA (electronic travel authority) required</td></tr>
+        <tr><th>Any number X</th><td>Visa free travel for X days</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
